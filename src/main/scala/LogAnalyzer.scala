@@ -13,7 +13,7 @@ object LogAnalyzer {
     // ================日志分析具体代码==================
     // HDFS上日志存储路径
     val path = "D://sparkLearnData/access.log"
-
+    //git push --set-upstream origin master
     // 创建rdd
     val rdd = sc.textFile(path)
     //val firstData = rdd.take(0).toString
